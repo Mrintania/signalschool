@@ -1,0 +1,30 @@
+import os
+import gdown
+import requests
+
+def download_folder(folder_id, destination_folder):
+    # Create destination folder if it doesn't exist
+    os.makedirs(destination_folder, exist_ok=True)
+
+    # Get file list from folder
+    files = gdown.gdrive.list_folder(folder_id)
+
+    for file in files:
+        file_id = file["id"]
+        file_name = file["name"]
+        file_path = os.path.join(destination_folder, file_name)
+
+        if file["mimeType"] == "application/vnd.google-apps.folder":
+            # Recursively download subfolders
+            download_folder(file_id, file_path)
+        else:
+            # Download individual files
+            url = f"https://drive.google.com/uc?id={file_id}"
+            gdown.download(url, file_path, quiet=False)
+
+# Specify the folder ID and destination folder path
+folder_id = "10XoIlzuNg-LFj1ZOazT1g6Kwf9gMpqii"
+destination_folder = "/path/to/destination/folder"
+
+# Download the folder
+download_folder(folder_id, destination_folder)
