@@ -1243,3 +1243,115 @@ section {
   font-size: 13px;
   color: #ccc;
 }
+
+/*--------------------------------------------------------------
+# Education
+--------------------------------------------------------------*/
+#education {
+  background: #f6f6f6;
+  padding: 80px 0;
+}
+
+#education .profile {
+  text-align: center;
+}
+
+#education .profile .pic {
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 15px;
+  overflow: hidden;
+  height: 260px;
+  width: 260px;
+}
+
+#education .profile .pic img {
+  max-width: 100%;
+}
+
+#education .profile h4 {
+  font-weight: 700;
+  color: #03C4EB;
+  margin-bottom: 5px;
+}
+
+#education .profile span {
+  color: #333333;
+}
+
+#education .quote {
+  position: relative;
+  background: #fff;
+  padding: 60px;
+  margin-top: 40px;
+  font-size: 16px;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+#education .quote b {
+  display: inline-block;
+  font-size: 22px;
+  left: -9px;
+  position: relative;
+  top: -8px;
+}
+
+#education .quote small {
+  display: inline-block;
+  right: -9px;
+  position: relative;
+  top: 4px;
+}
+/*--------------------------------------------------------------
+# End Education
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Flip Card
+--------------------------------------------------------------*/
+#flip-card {
+  background: #f6f6f6;
+  padding: 80px 0;
+}
+
+.flip-card {
+  width: 400px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #4CAF50;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+/*--------------------------------------------------------------
+# End Flip Card
+--------------------------------------------------------------*/
