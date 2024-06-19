@@ -30,33 +30,25 @@
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/aos/aos.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
 </head>
 
 <body>
     <!-- Start VDO Intro -->
     <section id="hero">
         <div class="hero-container">
-            <video src="assets/video/VTRSignalSchool.mp4" muted loop autoplay></video>
+            <video src="https://signalschool-web-db.s3.ap-southeast-1.amazonaws.com/VTRSignalSchool.mp4?response-content-disposition=inline&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHoaDmFwLXNvdXRoZWFzdC0xIkYwRAIgT47p%2BDGcCQUTRyfogwhV8E6lQomwwXR70io7iK6ktokCIAWH475yLPJVEM0defnvjNpp94KbHDqOvJj1BIfbcirNKugCCCMQABoMOTA1NDE4MzgwMDk0IgxI%2Bqq1OfqubXysFkMqxQJGSGdc4OjfE9qZWiGcIdMdZCxjidt4FqPIweF9%2FnbwtIHQ3voQnLUGsrsqcFKo2unhJiijWuizNin%2BrbwLHBgSoFkeHs%2FDmACgfi79ZvnmUpcWt8WbM%2BM1s2AHFA5td99YTri10PHjY3217%2BU6e2AkHD%2BMeFPeUiMuAiFuj0A3ii3d7mIF%2F5rIWM45ZgKMBQ3i9ygvDPAKkuzAhYlaMyB7a%2F8EgSgpqD%2Bk5ibJH7fiVc95Xy7rVMZBBXAhCv%2BJP9IOMfIB%2F%2BIZ0f%2F%2F3AeLTdKMYUCL8jTsdlS94WCJLiCDXNNbZXuGEj1op7FVVWFtXtBlqbSQltFxmfHBgXPjLbriaC9jkKw8JVfA8dQse0OKh9yu%2BrN21TNYMHhgrM2rjB63Rx3DYcJwAi20WptXVKLcINZxrQJ8RMHIDmRhvh2yTPG%2FIjm1MI76yLMGOrQCD%2BpHUD4LSErk90PF8i6LQst%2FNZ30vQDwMhpdJhvlkRyrONLCpGKfKsuP0xFEGjbMHTyamVYZbOq%2B9oanAoJGllofIKuPg85eyFrMgmfYHuTU8OxKihiNQd45zoVSrmaSJAhsHLhzKl%2Bc8jkLTknL8snS40bg%2Bu7W%2FJrUfO1wXswFSE9vHPXEaLfyi%2F33I%2BmvLhpBdwv4BGO5J5LVKxTh1hd4pt3kar4mFlyyz2xbqHe%2BXR%2FI9oxVmcoSdmz21vK3kHYoIDhcyxjmkC0t0r62AtbhQck6h7vUzIaS13%2BMH8fCq8z7R260oVmCoCI11RW%2FMUpqfEMnFjDMGEzv%2FTgYA03hLf6U8Lmt5wP1%2B%2B%2FWxd%2By6NcW%2BGdnfGZJ4u%2FjOyAk986HHpM6dLDVhw7zeRFFxxSheN8%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240619T020746Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIA5FTZECM7BUTE3QXY%2F20240619%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Signature=8fc3bd81ed50ef80f6e5211c7b853a409edeedfa6135ff74e8718e4f392e0c83"
+            muted loop autoplay></video>
+            <!-- Import VDO from Youtube url = "https://youtu.be/vmKJhEKKT8M?si=Oyz_eOIEGin3iQ80" -->
+            <video <iframe width="100%" height="100%" src="https://www.youtube.com/embed/vmKJhEKKT8M?autoplay=1&mute=1&loop=1&playlist=vmKJhEKKT8M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>></video> 
+            
+            
             <div data-aos="fade-in">
                 <div class="hero-logo">
                     <img class="" src="assets/img/siglogo.png" alt="signal-school-logo">
                 </div>
 
                 <h1>Welcome to Signalschool</h1>
-                <h2>เราคือ <span class="typed" data-typed-items=" ผู้นำที่มีศักยภาพด้านการศึกษา , ผู้ที่มีความทันสมัยในการจัดการเรียนการสอน, ผู้นำด้านเทคโนโลยีสารสนเทศและการสื่อสาร , ผู้นำด้านเทคโนโลยีดิจิทัล"></span>
+                <h2>เราคือ <span class="typed" data-typed-items="ผู้นำที่มีศักยภาพด้านการศึกษา, ผู้ที่มีความทันสมัยในการจัดการเรียนการสอน, ผู้นำด้านเทคโนโลยีสารสนเทศและการสื่อสาร, ผู้นำด้านเทคโนโลยีดิจิทัล"></span>
                 </h2>
                 <div class="actions">
                     <a href="#about" class="btn-get-started">Get Start</a>
@@ -89,12 +81,12 @@
                             <div class="flip-card-inner">
                                 <div class="flip-card-front">
                                     <a href="https://youtube.com/playlist?list=PLTgKHe0fWCGLpyLj_o7H_1bK2UGt7JLdP&si=zE6Y-kndYG8lJZOf" target="_blank">
-                                        <img src="./assets/img/สารคดี-scaled.jpg" alt="Avatar" style="width:400px;height:500px;">
+                                        <img src="./assets/img/สารคดี-scaled.jpg" alt="Dicovery_KingX" style="width:400px;height:500px;">
                                     </a>
                                 </div>
                                 <div class="flip-card-back">
                                     <a href="https://youtube.com/playlist?list=PLTgKHe0fWCGLpyLj_o7H_1bK2UGt7JLdP&si=zE6Y-kndYG8lJZOf" target="_blank">
-                                        <img src="./assets/img/สารคดี-scaled.jpg" alt="Avatar" style="width:400px;height:500px;">
+                                        <img src="./assets/img/สารคดี-scaled.jpg" alt="Dicovery_KingX" style="width:400px;height:500px;">
                                     </a>
                                 </div>
                             </div>
@@ -315,8 +307,7 @@
                     <a href="portfolio-details.php?folder=CNR-900&subject=PRC-730">
                         <img src="assets/CNR-900/PRC-730/img/4AC222A7-7BBE-4583-B0E0-7963FBAFAF5D.png" class="img-fluid" alt="">
                     </a>
-                    <p style="position:absolute; color: blue; top: 50%;  text-align: center; width: 100%; font-weight: bold; font-size: 24px; text-shadow: 0 0 0.2em white, 0 0 0.2em white">
-                        PRC-730</p>
+                    <p style="position:absolute; color: blue; top: 50%;  text-align: center; width: 100%; font-weight: bold; font-size: 24px; text-shadow: 0 0 0.2em white, 0 0 0.2em white">PRC-730</p>
                     <div class="portfolio-info">
                         <h4>PRC-730</h4>
                         <p>ชุดวิทยุซีรี่ย์ CNR-900</p>
@@ -328,8 +319,7 @@
                 <div class="col-lg-4 col-md-6 portfolio-item filter-cnr900t">
                     <a href="portfolio-details.php?folder=CNR-900T&subject=PRC-930">
                         <img src="assets/CNR-900T/PRC-930/img/58e7d118-1c16-4fbe-9c2e-6f10d8392604-2.png" class="img-fluid" alt="">
-                        <p style="position:absolute; color: blue; top: 50%;  text-align: center; width: 100%; font-weight: bold; font-size: 24px; text-shadow: 0 0 0.2em white, 0 0 0.2em white">
-                            PRC-930</p>
+                        <p style="position:absolute; color: blue; top: 50%;  text-align: center; width: 100%; font-weight: bold; font-size: 24px; text-shadow: 0 0 0.2em white, 0 0 0.2em white">PRC-930</p>
                     </a>
                     <div class="portfolio-info">
                         <h4>PRC-930</h4>
@@ -343,8 +333,7 @@
                     <a href="portfolio-details.php?folder=CNR-900T&subject=VRC-950">
                         <img src="assets/CNR-900T/VRC-950/img/Unknown.png" class="img-fluid" alt="">
                     </a>
-                    <p style="position:absolute; color: blue; top: 50%;  text-align: center; width: 100%; font-weight: bold; font-size: 24px; text-shadow: 0 0 0.2em white, 0 0 0.2em white">
-                        VRC-950</p>
+                    <p style="position:absolute; color: blue; top: 50%;  text-align: center; width: 100%; font-weight: bold; font-size: 24px; text-shadow: 0 0 0.2em white, 0 0 0.2em white">VRC-950</p>
                     <div class="portfolio-info">
                         <h4>VRC-950</h4>
                         <p>ชุดวิทยุซีรี่ย์ CNR-900T</p>
@@ -418,7 +407,7 @@
                     <div class="portfolio-info">
                         <h4>VRC-6020</h4>
                         <p>ชุดวิทยุซีรี่ย์ HF-6000</p>
-                        <a href="assets/HF-6000/VRC-6020/img/LINE_ALBUM__E0_B8_81_E0_B8_B2_E0_B8_A3_E0_B8_88_E0_B8_B1_E0_B8_94_E0_B8_8A_E0_B8_B8_E0_B8_94_E0_B8_A7_E0_B8_B4_E0_B8_97_E0_B8_A2_E0_B8_B8_E0_B8_95_E0_B9_88_E0_B8_B2_E0_B8_87_20_E0_B9_86_221124_18.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="VRC-6020"><i class="bi bi-plus"></i></a>
+                        <a href="assets/HF-6000/VRC-6020/img/vrc-6020.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="VRC-6020"><i class="bi bi-plus"></i></a>
                         <a href="portfolio-details.php?folder=HF-6000&subject=VRC-6020" class="details-link" title="More Details" target="_blank"><i class="bi bi-link"></i></a>
                     </div>
                 </div>
@@ -481,10 +470,93 @@
     </section>
     <!-- End Tools -->
 
+    <!-- Start Contact -->
+    <section id="contact">
+        <div class="container" data-aos="fade-up">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="section-headline text-center">
+                            <h2>ติดต่อเรา</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="bi bi-phone"></i>
+                                <p>
+                                    02-297-5241 (ทบ.95241)<br>
+                                    <span>จันทร์-ศุกร์ (เวลา 8.00น.-16.30น.)</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="bi bi-envelope"></i>
+                                <p>
+                                    edu.com@signalschool.ac.th<br>
+                                    <span>Web: www.signalschool.ac.th</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start contact icon column -->
+                    <div class="col-md-4">
+                        <div class="contact-icon text-center">
+                            <div class="single-icon">
+                                <i class="bi bi-geo-alt"></i>
+                                <p>
+                                    149 ถนน ทหาร แขวงนครไชยศรี<br>
+                                    <span>เขตดุสิต กรุงเทพมหานคร 10300</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <!-- Start Google Map -->
+                    <div class="justify-content-center">
+                        <!-- Start Map -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3874.780576536859!2d100.52604211485539!3d13.792097000074262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29b0f5534ea97%3A0x95fd4858f7d1130a!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4LiX4Lir4Liy4Lij4Liq4Li34LmI4Lit4Liq4Liy4LijIOC4geC4o-C4oeC4geC4suC4o-C4l-C4q-C4suC4o-C4quC4t-C5iOC4reC4quC4suC4ow!5e0!3m2!1sth!2sth!4v1668912078778!5m2!1sth!2sth" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <!-- End Map -->
+                    </div>
+                    <!-- End Google Map -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
 
 </body>
 <footer>
-    <?php include 'footer.php'; ?>
+    <?php include_once 'footer.php'; ?>
 </footer>
+
+<div id="preloader"></div>
+
+<!-- Go to top -->
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i>
+</a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/typed.js/typed.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
 
 </html>

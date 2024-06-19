@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Imperial Bootstrap Template</title>
+  <title>Inner Page - Imperial Bootstrap Template</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -60,23 +60,18 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="index.html#hero">หน้าหลัก</a></li>
-          <li><a class="nav-link scrollto" href="index.html#about">เกี่ยวกับ</a></li>
-          <li><a class="nav-link scrollto" href="index.html#services">หน่วยงาน</a></li>
-          <li><a class="nav-link scrollto " href="index.html#portfolio">คู่มืออุปกรณ์สื่อสาร</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">หน้าหลัก</a></li>
           <li><a href="https://sites.google.com/signalschool.ac.th/signal-school-qa"
               class="nav-link scrollto">สำนักงานประกันคุณภาพการศึกษา</a></li>
-          <li><a class="nav-link scrollto" href="index.html#testimonials">Testimonials</a></li>
 
           <li class="dropdown"><a href="#"><span>ระบบงาน</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">E-learning</a></li>
-              <li><a href="#">คลังข้อสอบ</a></li>
-              <li><a href="#">KM (Knowledge Management)</a></li>
-              <li><a href="#">MIS ระบบฐานข้อมูลเพื่อการจัดการ</a></li>
+              <li><a href="http://signalschool.co/login/index.php">คลังข้อสอบ</a></li>
+              <li><a href="https://sites.google.com/signalschool.ac.th/evaluation-signalschool/หนาแรก">การประเมินผล รร.ส.สส.</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1pvKJMB-xhSABfKqH-A_yTLNOXR_saiyp">KM (Knowledge Management)</a></li>
+              <li><a href="https://www.signalschool.ac.th/mis/">MIS ระบบฐานข้อมูลเพื่อการจัดการ</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#contact">ติดต่อเรา</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -87,93 +82,31 @@
   <main id="main">
 
     <!-- ======= Breadcrumbs ======= -->
-    <section id="breadcrumbs" class="breadcrumbs">
+    <section class="breadcrumbs">
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>ชุดวิทยุCNR-900</h2>
+          <h2>แผนกวิชาคอมพิวเตอร์และสื่อสารข้อมูล</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>ชุดวิทยุCNR-900</li>
+            <li><a href="index.html">หน้าหลัก</a></li>
+            <li>แผนกวิชาคอมพิวเตอร์และสื่อสารข้อมูล</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs -->
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
+    <section class="inner-page">
       <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-<?php 
-                <div class="swiper-slide">
-                  <img src="assets/img/fm/CNR900-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/fm/CNR900-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/fm/CNR900-3.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
+      <img src="assets/img/computer_department.jpg" height="100%" width="100%" alt="">
       </div>
-    </section><!-- End Portfolio Details Section -->
+    </section>
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="copyright">
-            &copy; Copyright <strong>Imperial Theme</strong>. All Rights Reserved
-          </div>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Imperial
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    <include_once 'footer.php'; ?>
+  <!-- End Footer -->
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
