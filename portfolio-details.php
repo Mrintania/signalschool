@@ -57,9 +57,13 @@
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
       <div class="container">
+        <!-- This is ULR form aws S3 "https://signalschool-web-db.s3.ap-southeast-1.amazonaws.com/assets/" get from this via php -->
+        <!-- php get subject and folder on aws s3 -->
         <?php
         $subject = $_GET['subject'];
         $folder = $_GET['folder'];
+        $subject_aws_s3 = 'assets/' . $folder . '/' . $subject . '/img/';
+        $subject_aws_s3 = preg_replace('/\s+/', '', $subject_aws_s3);
         ?>
         <div class="d-flex justify-content-between align-items-center">
           <h2><?= $subject ?></h2>
@@ -83,6 +87,50 @@
             <div class="portfolio-details-slider swiper">
               <div class="swiper-wrapper align-items-center">
                 <?php
+
+                require 'vendor/autoload.php';
+                use Aws\S3\S3Client;
+                use Aws\S3\Exception\S3Exception;
+                try {
+                  $s3 = new S3Client([
+                    'version' => 'latest',
+                    'region'  => 'ap-southeast-1',
+                    'credentials' => [
+                      'key'    => 'AKIAX7Z7ZQ4ZQ',
+                      'secret' => '',
+                    ],
+                  ]);
+                } catch (AwsException $e) {
+                  // output error message if fails
+                  error_log($e->getMessage());
+                }
+
+                try {
+                  $dir_name = 'assets/' . $folder . '/' . $subject . '/img/';
+                  $images = glob($dir_name . "*.png");
+                  $dir_file = 'assets/' . $folder . '/' . $subject . '/brochure/';
+                  $file = glob($dir_file . "*.pdf");
+                  if ($folder == "PRC" || $folder == "ETE") {
+                    $dir_video = 'assets/' . $folder . '/' . $subject . '/video/';
+                    $video = glob($dir_video . "*.mp4");
+                  } else {
+                    $dir_video = 'assets/' . $folder . '/video/';
+                    $video = glob($dir_video . "*.mp4");
+                  }
+                  foreach ($images as $image) { ?>
+                    <div class="swiper-slide">
+                      <img src="<?= $image ?>" alt="">
+                    </div>
+                  <?php
+                  }
+                } catch (AwsException $e) {
+                  // output error message if fails
+                  error_log($e->getMessage());
+                }
+                ?>
+
+                <?php
+
                 $dir_name = 'assets/' . $folder . '/' . $subject . '/img/';
                 $images = glob($dir_name . "*.png");
                 $dir_file = 'assets/' . $folder . '/' . $subject . '/brochure/';
@@ -146,7 +194,8 @@
             <div class="portfolio-description">
               <h2>วีดีทัศน์สื่อการสอน</h2>
               <p>
-              <ul><?php foreach ($video as $videos) { ?>
+              <ul>
+                <?php foreach ($video as $videos) { ?>
                   <li>
                     <a href="#" class="video" id="<?= $videos ?>" data="<?= basename($videos); ?>"><?= basename($videos); ?></a>
                   </li>
@@ -226,7 +275,6 @@
       })
     });
   </script>
-
-</body>
-
-</html>
+  </body>
+  
+  </html>
